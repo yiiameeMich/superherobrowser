@@ -1,0 +1,124 @@
+.randomCharBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.randomCharContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1600px;
+    height: 450px;
+    margin: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 5px 5px grey;
+}
+
+.randomCharContainer.loader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
+    height: 450px;
+    margin: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 5px 5px grey;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 15px;
+    padding: 10px;
+    width: 450px;
+    height: 350px;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    text-shadow: 3px 3px 3px grey;
+}
+
+#charPicture {
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 10px 10px grey;
+}
+
+#charName {
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#stats {
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.realName {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.stats {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.powerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 15px 10px 10px 80px;
+    padding: 10px;
+    width: 450px;
+    height: 350px;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    text-shadow: 3px 3px 3px grey;
+}
+
+.logo {
+    margin: 10px;
+}
+
+#button-block {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    margin: 20px;
+    font-size: 24px;
+    color: white;
+    border-color: white;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btn:focus {
+    color: lightgrey;
+    border-color: white;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,43 @@
+.charCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 650px;
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 7px 5px 5px grey;
+}
+#charCardImage {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px grey;
+}
+#charCardName {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 32px;
+    padding: 0;
+    margin: 10px;
+    text-shadow: 3px 3px 3px grey;
+}
+.cardStats {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    margin: 10px;
+    text-shadow: 2px 3px 3px grey;
+}
+#textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

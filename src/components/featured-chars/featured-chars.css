@@ -1,0 +1,15 @@
+#sectionName {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: grey 2px 0 15px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

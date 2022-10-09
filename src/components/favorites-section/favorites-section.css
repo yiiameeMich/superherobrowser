@@ -1,0 +1,43 @@
+#favSectionName {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: grey 2px 0 15px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+#favContainer {
+    min-height: 700px;
+}
+
+#favSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#seeMoreFav {
+    width: 350px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 32px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px grey;
+    box-shadow: 5px 5px 5px grey;
+}
+#dontHave {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: grey 2px 0 15px;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: 50px 0 0 0;
+}

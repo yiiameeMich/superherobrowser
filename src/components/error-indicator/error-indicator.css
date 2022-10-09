@@ -1,0 +1,24 @@
+#errorContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 450px;
+    margin: 50px;
+}
+
+#errorText {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#errorImage {
+    height:300px;
+}

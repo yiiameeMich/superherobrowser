@@ -1,0 +1,63 @@
+.headerText {
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px grey;
+    text-decoration: none;
+}
+.headerText.small {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 50px;
+    margin: 30px
+}
+
+.headerText:visited{
+    color: white;
+}
+
+.headerText:hover{
+    text-shadow: 3px 3px 3px white;
+}
+
+#appName {
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    text-decoration: none;
+}
+
+#appName:visited{
+    color: white;
+}
+
+#appNameContainer {
+    width: 250px;
+}
+
+.textWrapper {
+    display: flex;
+    align-items: baseline;
+}
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-bottom: 2px solid white;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#supermanIcon {
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+}
