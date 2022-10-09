@@ -52,7 +52,7 @@ export default function DetailsPage() {
 		<div className='detailsPage'>
 			<div id='imageDiv'>
 				<h1 id='charNameHead'> {name} </h1>
-				<img id='charImg' src={image} alt='Character Image'/>
+				<img id='charImg' src={image} alt='Character'/>
 					<Button id='addBtn' onClick={() => {addToFavs({id, name, powerstats, image, isFav})}}>Add to Favorites</Button>
 			</div>
 			<div id='textDiv'>

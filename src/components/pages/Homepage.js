@@ -4,6 +4,7 @@ import FeaturedChars from "../featured-chars/featured-chars";
 import IconsSection from "../icons-section/icons-section";
 import FavoritesSection from "../favorites-section/favorites-section";
 import {Context} from '../../context'
+import Footer from "../footer/Footer";
 
 
 function Homepage() {
@@ -42,6 +43,7 @@ function Homepage() {
 			              second={jokerIcon}
 			              third={wonderWomanIcon}
 			              fourth={greenLanternIcon} names={names.secondSection}/>
+			<Footer />
 		</div>
 	)
 
