@@ -105,7 +105,7 @@ export default class CharCard extends Component {
 				     alt='Character Image' id='charCardImage'/>
 				<div id='textContainer'>
 					<h1 id='charCardName'>{name}</h1>
-					<div>
+					<div className='charCardStatsContainer'>
 						<p className='cardStats'><i
 							className="bi bi-mortarboard-fill logo"/> Intelligence: {powerstats.intelligence === 'null' ? '10' : powerstats.intelligence}
 						</p>

@@ -144,7 +144,7 @@ export default class RandomChar extends Component {
 					<div className='randomCharContainer '>
 						<img src={image}
 						     alt='character picture'
-						     id='charPicture'/>
+						     className='charPicture'/>
 						<div className='textContainer'>
 							<h1 id='charName'>{name}</h1>
 							<p className='realName'> Real name: {!description ? 'Unknown' : description} </p>

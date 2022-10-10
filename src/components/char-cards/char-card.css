@@ -12,6 +12,40 @@
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 7px 5px 5px grey;
 }
+
+@media (max-width: 1540px) {
+    .charCardContainer {
+        margin: 15px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .charCardContainer {
+        margin: 10px;
+        width: 300px;
+    }
+    .charCardContainer > #charCardImage {
+        width: 150px;
+        height: 150px;
+    }
+    .charCardContainer > span > .btn {
+        margin: 10px;
+    }
+    #textContainer > .charCardStatsContainer {
+        display: none;
+    }
+    .charCardContainer {
+        height: 400px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+}
+
 #charCardImage {
     width: 200px;
     height: 200px;

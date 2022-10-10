@@ -19,3 +19,25 @@
     --toastify-font-family: 'Rajdhani', sans-serif;
     font-size: 24px;
 }
+
+@media (max-width: 1220px) {
+    #iconSection {
+        height: 100px;
+    }
+    #iconSection > .charIcon {
+        height: 50px;
+        margin: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    #iconSection > .charIcon {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 852px) {
+    #iconSection > .charIcon {
+        margin: 5px;
+    }
+}
