@@ -8,10 +8,6 @@ export default class CharCard extends Component {
 
 	superheroApi = new GetApiData();
 
-	constructor() {
-		super();
-	}
-
 	state = {
 		isLoading: true,
 		image: null,
@@ -124,9 +120,9 @@ export default class CharCard extends Component {
 				</div>
 				<span>
 					{this.props.isFavorite
-						? <button type='button' className='btn btn-outline btn-sm' onClick={() => this.props.toDelete(id, name)}><i
+						? <button type='button' className='btn btn-outline btn-sm' title='Delete from favorites' onClick={() => this.props.toDelete(id, name)}><i
 							className="bi bi-x-circle-fill"/></button>
-						: <button type='button' className='btn btn-outline btn-sm' onClick={() => this.props.addToFavs({
+						: <button type='button' className='btn btn-outline btn-sm' title='Add to favorites' onClick={() => this.props.addToFavs({
 							id,
 							name,
 							image,
@@ -134,10 +130,11 @@ export default class CharCard extends Component {
 							isFavorite
 						})}><i className='bi bi-star-fill'/></button>}
 
-							<Link to='details' type='button' className='btn btn-outline btn-sm' onClick={() => {this.props.getInfo(this.state)}}><i
+							<Link to='details' type='button' className='btn btn-outline btn-sm' title='View detailed information'
+							      onClick={() => {this.props.getInfo(this.state)}}><i
 								className="bi bi-eye-fill" /></Link>
 					{this.props.refreshable
-						&& <button type='button' className='btn btn-outline btn-sm'
+						&& <button type='button' className='btn btn-outline btn-sm' title='Change Character'
 					         onClick={() => this.updateChar(Math.floor(Math.random() * 731))}>
 						<i className="bi bi-arrow-clockwise"/></button>}
 				</span>

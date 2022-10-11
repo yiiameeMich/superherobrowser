@@ -34,6 +34,13 @@
     text-shadow: 3px 3px 3px grey;
     box-shadow: 5px 5px 5px grey;
 }
+
+@media (max-width: 882px) {
+    #favContainer > #seeMoreFav {
+        width: 200px;
+    }
+}
+
 #dontHave {
     color: white;
     font-family: 'Rajdhani', sans-serif;

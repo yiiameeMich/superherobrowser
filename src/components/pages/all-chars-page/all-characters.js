@@ -32,7 +32,7 @@ export default function AllCharacters() {
 			<h1 id='pageName'>All Characters</h1>
 			<form className='searchForm' onSubmit={(e) => e.preventDefault()}>
 				<input type='text'
-				       placeholder='Search characters here'
+				       placeholder='Character name...'
 				       className='searchInput'
 				       value={searchValue}
 				       onChange={(e) => {

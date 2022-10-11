@@ -78,7 +78,6 @@
 
 .textWrapper {
     display: flex;
-    align-items: baseline;
 }
 .headerContainer{
     display: flex;

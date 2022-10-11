@@ -18,10 +18,6 @@ export default class RandomChar extends Component {
 		hasError: false
 	};
 
-	constructor() {
-		super();
-	}
-
 	timerId = null;
 
 	componentDidMount() {
@@ -163,11 +159,13 @@ export default class RandomChar extends Component {
 							<p className='stats'><i className="bi bi-screwdriver logo" /> Combat: {powerstats.combat === 'null' ? '10' : powerstats.combat} </p>
 						</div>
 						<div id='button-block'>
-							<button type='button' className='btn btn-outline btn-sm' onClick={() => this.props.addToFavs(this.state)}><i className='bi bi-star-fill'/></button>
-							<button type='button' className='btn btn-outline btn-sm'
+							<button type='button' className='btn btn-outline btn-sm' title='Add to favorites'
+							        onClick={() => this.props.addToFavs(this.state)}><i className='bi bi-star-fill'/></button>
+							<button type='button' className='btn btn-outline btn-sm' title='Change Character'
 							onClick={() => this.updateChar(Math.floor(Math.random()*731))}>
 								<i className="bi bi-arrow-clockwise" /></button>
-							<Link to='details' type='button' className='btn btn-outline btn-sm' onClick={() => {this.props.getInfo(this.state)}}><i
+							<Link to='details' type='button' className='btn btn-outline btn-sm' title='View detailed information'
+							      onClick={() => {this.props.getInfo(this.state)}}><i
 								className="bi bi-eye-fill"/></Link>
 						</div>
 

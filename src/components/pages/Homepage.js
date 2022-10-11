@@ -3,8 +3,8 @@ import RandomChar from "../random-char/random-char";
 import FeaturedChars from "../featured-chars/featured-chars";
 import IconsSection from "../icons-section/icons-section";
 import FavoritesSection from "../favorites-section/favorites-section";
+import Footer from '../footer/Footer'
 import {Context} from '../../context'
-import Footer from "../footer/Footer";
 
 
 function Homepage() {

@@ -8,6 +8,15 @@
     margin: 20px;
 }
 
+@media (max-width: 882px) {
+    #seeMoreFav {
+        width: 200px;
+    }
+    .searchForm > .searchInput {
+        width: 250px;
+    }
+}
+
 #allCharsDiv {
     display: flex;
     flex-direction: row;
