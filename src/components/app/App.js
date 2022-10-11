@@ -83,13 +83,13 @@ function App() {
 					<Route exact path='/superherobrowser/'>
 						<Homepage />
 					</Route>
-					<Route path='/details/'>
+					<Route path='/superherobrowser/details/'>
 						<DetailsPage/>
 					</Route>
-					<Route path='/all-characters'>
+					<Route path='/superherobrowser/all-characters'>
 						<AllCharacters />
 					</Route>
-					<Route path='/favorites'>
+					<Route path='/superherobrowser/favorites'>
 						<FavoritesPage />
 					</Route>
 				</Switch>
