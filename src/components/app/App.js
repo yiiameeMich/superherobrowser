@@ -80,16 +80,16 @@ function App() {
 			<div className="App">
 				<Header/>
 				<Switch>
-					<Route exact path='https://yiiameemich.github.io/'>
+					<Route exact path='https://yiiameemich.github.io/superherobrowser/'>
 						<Homepage />
 					</Route>
-					<Route path='https://yiiameemich.github.io/details/'>
+					<Route path='https://yiiameemich.github.io/superherobrowser/details/'>
 						<DetailsPage/>
 					</Route>
-					<Route path='https://yiiameemich.github.io/all-characters'>
+					<Route path='https://yiiameemich.github.io/superherobrowser/all-characters'>
 						<AllCharacters />
 					</Route>
-					<Route path='https://yiiameemich.github.io/favorites'>
+					<Route path='https://yiiameemich.github.io/superherobrowser/favorites'>
 						<FavoritesPage />
 					</Route>
 				</Switch>
