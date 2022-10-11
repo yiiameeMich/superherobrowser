@@ -80,7 +80,7 @@ function App() {
 			<div className="App">
 				<Header/>
 				<Switch>
-					<Route exact path='/'>
+					<Route exact path='/superherobrowser/'>
 						<Homepage />
 					</Route>
 					<Route path='/details/'>
