@@ -80,16 +80,16 @@ function App() {
 			<div className="App">
 				<Header/>
 				<Switch>
-					<Route exact path='/superherobrowser/'>
+					<Route exact path='/'>
 						<Homepage />
 					</Route>
-					<Route path='/superherobrowser/details/'>
+					<Route path='/details/'>
 						<DetailsPage/>
 					</Route>
-					<Route path='/superherobrowser/all-characters'>
+					<Route path='/all-characters'>
 						<AllCharacters />
 					</Route>
-					<Route path='/superherobrowser/favorites'>
+					<Route path='/favorites'>
 						<FavoritesPage />
 					</Route>
 				</Switch>
